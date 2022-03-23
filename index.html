@@ -6,15 +6,17 @@
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <header>Bi-Plane QR Code Generator</header>
+  <header><img src="biplane.png">BiPlane™ QR Code Generator</header>
   <section>
     <div><h6>History:</h6></div>
     <div></div>
   </section>
   <div>
     <aside left>
-      <input type="url" required>
-      <button onclick="generateQR()">Generate QR Code</button>
+      <form action="generateQR()">
+        <input type="url" placeholder="Enter URL here . . ." required>
+        <button type="submit">Generate QR Code</button>
+      </form>
     </aside>
     <aside right>
       <img>

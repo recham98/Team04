@@ -12,8 +12,15 @@ header{
   font-size:40px;
   font-weight:200;
   text-align:center;
-  padding:0.5em;
+  padding:.5em .5em .5em 3em;
   border-bottom:1px solid rgba(0,0,0,.18);
+}
+header img{
+  height: 1.5em;
+  position: absolute;
+  margin-left: -2.5em;
+  margin-top: -0.25em;
+  filter:grayscale(100%);
 }
 section{
   font-size:17px;
@@ -47,10 +54,14 @@ footer{
   clear:both;
 }
 aside{
-  float:left;
-  width:50%;
   padding-top:3em;
   text-align:center;
+}
+@media only screen and (min-width: 600px){
+  aside{
+    float:left;
+    width:50%; 
+  }
 }
 input,button{
   font-weight:300;
@@ -59,7 +70,7 @@ input,button{
   border:1px solid rgba(0,0,0,.2);
   border-radius:2px;
   width:300px;
-  max-width:50%;
+  max-width:90%;
   background:#fff;
   display:block;
   margin:1em auto;
