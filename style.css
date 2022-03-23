@@ -24,7 +24,7 @@ header img{
 }
 section{
   font-size:17px;
-  padding:0 1em 1.5em 1em;
+  padding:0 1em .5em 1em;
   border-bottom:1px solid rgba(0,0,0,.12);
   background:rgba(0,0,0,.06);
 }
@@ -33,7 +33,8 @@ section a{
   border-radius:9em;
   border:1px solid rgba(0,0,0,.12);
   cursor:pointer;
-  margin:0 .5em;
+  margin:.5em;
+  display:inline-block;
 }
 section a:hover,button:hover{
   background:rgba(0,0,0,.06);
@@ -47,7 +48,7 @@ div{
 }
 h6{
   margin:0;
-  padding:1em 0 2em 1em;
+  padding:1em 1em 0 1em;
   font-weight:500;
 }
 footer{
@@ -63,13 +64,17 @@ aside{
     width:50%; 
   }
 }
+h5{
+  font-weight:normal;
+  font-style:italic; 
+}
 input,button{
   font-weight:300;
   font-size:24px;
   padding:.5em 1em;
   border:1px solid rgba(0,0,0,.2);
   border-radius:2px;
-  width:300px;
+  width:400px;
   max-width:90%;
   background:#fff;
   display:block;
