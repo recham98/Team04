@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+body{
+  margin:0;
+  background:#fff;
+}
+*{
+  font-family:'Roboto',sans-serif;
+  user-select:none;
+  box-sizing:border-box;
+}
+header{
+  font-size:40px;
+  font-weight:200;
+  text-align:center;
+  padding:0.5em;
+  border-bottom:1px solid rgba(0,0,0,.18);
+}
+section{
+  font-size:17px;
+  padding:0 1em 1.5em 1em;
+  border-bottom:1px solid rgba(0,0,0,.12);
+  background:rgba(0,0,0,.06);
+}
+section a{
+  padding:.5em .75em;
+  border-radius:9em;
+  border:1px solid rgba(0,0,0,.12);
+  cursor:pointer;
+  margin:0 .5em;
+}
+section a:hover,button:hover{
+  background:rgba(0,0,0,.06);
+}
+section a:active,button:active{
+  background:rgba(0,0,0,.12);
+}
+div{
+  max-width:1200px;
+  margin:auto;
+}
+h6{
+  margin:0;
+  padding:1em 0 2em 1em;
+  font-weight:500;
+}
+footer{
+  clear:both;
+}
+aside{
+  float:left;
+  width:50%;
+  padding-top:3em;
+  text-align:center;
+}
+input,button{
+  font-weight:300;
+  font-size:24px;
+  padding:.5em 1em;
+  border:1px solid rgba(0,0,0,.2);
+  border-radius:2px;
+  width:300px;
+  max-width:50%;
+  background:#fff;
+  display:block;
+  margin:1em auto;
+}
+button{cursor:pointer;}
+button:focus{ outline:none; }
+input:focus{
+  outline:none;
+  border-color:#282828;
+}
